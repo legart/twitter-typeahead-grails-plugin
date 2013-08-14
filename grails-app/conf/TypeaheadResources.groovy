@@ -12,7 +12,7 @@ modules = {
             dependsOn "jquery"
         }
 
-        resource id: 'typeahead-js', url:[plugin: 'twitter-typeahead', dir: 'js', (dev ? jsFile : jsminFile)]
+        resource id: 'typeahead-js', url:[plugin: 'twitter-typeahead', dir: 'js', file: (dev ? jsFile : jsminFile)]
     }
 
     'typeahead-bootstrap-css' {
