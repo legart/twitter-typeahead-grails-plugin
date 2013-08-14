@@ -1,7 +1,11 @@
 Grails plugin: Twitter Typeahead resource files
 ===============================================
 
-Provides resource files for Twitter Typehead.
+Inspired by twitter.com's autocomplete search functionality, typeahead.js is a
+fast and fully-featured autocomplete library.
+
+This plugins provides resource files for typeahead.js and CSS to style it when
+used with Bootstrap.
 
 See https://github.com/twitter/typeahead.js to get started.
 
@@ -24,12 +28,23 @@ To use Asset-Pipeline add the following to your Javascript code:
 console.log("My javascript goes here");
 ```
 
+Stylesheet (CSS):
+```css
+/*
+*= require typeahead-bootstrap-css
+*/
+```
+
 Usage
 -----
 
 Declare bootstrap resource module in GSP page header:
 
     <r:require modules="typeahead-js"/>
+    <r:require modules="typeahead-bootstrap-css"/>
+
+See http://twitter.github.io/typeahead.js/examples/ for HTML/Javascript examples
+to get you started.
 
 Copyright and License
 ---------------------
