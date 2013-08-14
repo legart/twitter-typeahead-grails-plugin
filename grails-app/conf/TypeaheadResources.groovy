@@ -1,4 +1,6 @@
-def dev = grails.util.GrailsUtil.isDevelopmentEnv()
+import grails.util.Environment
+
+boolean dev = Environment.isDevelopmentMode()
 
 def applicationContext = org.codehaus.groovy.grails.commons.ApplicationHolder.application.mainContext
 def jqueryPlugin = applicationContext.pluginManager.getGrailsPlugin('jquery')
