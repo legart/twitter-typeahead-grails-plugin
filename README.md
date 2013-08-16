@@ -46,6 +46,16 @@ Declare bootstrap resource module in GSP page header:
 See http://twitter.github.io/typeahead.js/examples/ for HTML/Javascript examples
 to get you started.
 
+History
+=======
+
+0.9.3.1 
+- Updated CSS to work with Bootstrap 3
+- Depend on Grails 2.0 instead of 2.2
+
+0.9.3 
+- First release 
+
 Copyright and License
 ---------------------
 
@@ -66,7 +76,7 @@ twitter-typeahead plugin:
    limitations under the License.
 
 
-Twitter Typeahead JS and CSS files:
+Twitter Typeahead JS:
 
     Copyright 2013 Twitter, Inc.
 
@@ -76,3 +86,5 @@ Twitter Typeahead JS and CSS files:
 
     Unless required by applicable law
 
+Twitter Bootstrap CSS from http://jsfiddle.net/needathinkle/MA7Ep/ referenced at
+https://github.com/twitter/typeahead.js/issues/378
