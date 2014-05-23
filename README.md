@@ -49,6 +49,9 @@ to get you started.
 History
 =======
 
+0.9.3.3
+- Support Grails 2.4.0
+
 0.9.3.2
 - Removed container margin styling in Bootstrap CSS (tcrossland) 
 

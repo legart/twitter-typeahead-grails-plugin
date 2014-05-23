@@ -2,8 +2,9 @@ import grails.util.Environment
 
 boolean dev = Environment.isDevelopmentMode()
 
-def applicationContext = org.codehaus.groovy.grails.commons.ApplicationHolder.application.mainContext
-def jqueryPlugin = applicationContext.pluginManager.getGrailsPlugin('jquery')
+def pluginManager = grails.util.Holders.pluginManager
+
+def jqueryPlugin = pluginManager.getGrailsPlugin('jquery')
 
 def jsFile = "typeahead.js"
 def jsminFile = "typeahead.min.js"
