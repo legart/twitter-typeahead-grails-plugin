@@ -1,1 +1,1 @@
-//=require typeahead
+//=require typeahead.jquery
