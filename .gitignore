@@ -1,5 +1,7 @@
+*.iml
 *.log
-target
+.idea/
 grails-*.zip
 plugin.xml
+target
 web-app/WEB-INF
