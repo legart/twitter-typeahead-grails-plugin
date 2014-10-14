@@ -1,5 +1,5 @@
 class TwitterTypeaheadGrailsPlugin {
-    def version = "0.9.3.4"
+    def version = "0.10.5"
     def grailsVersion = "2.0 > *"
     def title = "Twitter Typeahead resources"
     def description = 'Provides resource files the Twitter Typeahead library'
